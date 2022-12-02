@@ -1,0 +1,9 @@
+SELECT COUNT(*) FROM EMP;
+
+SELECT COUNT(EMPNO) FROM EMP WHERE EMPNO=7369;
+
+select count(EMPNO) from EMP where SAL = 1200;
+
+select count(deptno) FROM dept where deptno = 30;
+
+select AVG(sal) from EMP where sal = 1200 and ename like '%S'; 
