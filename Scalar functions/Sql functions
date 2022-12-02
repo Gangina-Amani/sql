@@ -1,0 +1,17 @@
+SQL Aggregate Functions:
+SQL aggregate functions includes AVG(), COUNT(), MIN(), MAX(), and SUM().
+
+SQL Comparison Functions:
+SQL comparison functions includes COALESCE, DECODE, and NULLIF.
+
+SQL String Functions:
+SQL string functions allows to manipulate string data more effectively.
+
+SQL Math Functions:
+SQL has many mathematical functions that allows to perform business and engineering calculations.
+
+SQL Date Functions:
+SQL date functions allows to manipulate date and time data effectively.
+
+SQL Window Functions:
+SQL window functions are used to solve complex query challenges in easy ways.
