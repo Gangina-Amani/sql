@@ -1,0 +1,5 @@
+select empno, ename, sal, comm from emp
+where sal between 800 and 1600 and comm is not null
+
+SELECT * FROM DEPT
+WHERE DEPTNO IN (10,30);
