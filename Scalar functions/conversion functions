@@ -1,0 +1,7 @@
+SELECT CONVERT(int, 65.78);
+
+SELECT CONVERT(varchar, 65.78);
+
+SELECT CONVERT(datetime, '2002-01-23');
+
+SELECT CONVERT(varchar, '2002-01-23', 103);
