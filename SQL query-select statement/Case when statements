@@ -1,0 +1,10 @@
+SELECT roll_no,stuid
+   CASE grade 
+      when 'A' then dbms_output.put_line('Outstanding performance'); 
+      when 'B' then dbms_output.put_line('Excellent performance'); 
+      when 'C' then dbms_output.put_line('Very good performance'); 
+      when 'D' then dbms_output.put_line('Average performance'); 
+      when 'F' then dbms_output.put_line('Poor performance'); 
+      else dbms_output.put_line('Such grade does not exist'); 
+      END CASE; 
+FROM student;
