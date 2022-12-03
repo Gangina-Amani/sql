@@ -1,0 +1,4 @@
+To count unique values of sal and all the values of sal:
+select count(distinct(sal)),count(sal) from emp3;
+
+SELECT DISTINCT esum FROM TestData WHERE esum IS NOT NULL; 
