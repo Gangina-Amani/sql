@@ -1,0 +1,18 @@
+NULL statement – show you how to use the NULL statement to make the code more clear.
+
+Example 1:
+
+DECLARE
+  n_credit_status VARCHAR2( 50 );
+BEGIN
+  n_credit_status := 'GOOD';
+
+  CASE n_credit_status
+  WHEN 'BLOCK' THEN
+    request_for_aproval;
+  WHEN 'WARNING' THEN
+    send_email_to_accountant;
+  ELSE
+    NULL;
+  END CASE;
+END;
