@@ -1,0 +1,17 @@
+WHILE loop – execute a sequence of statements as long as a specified condition is TRUE.
+
+Example:
+
+SET SERVEROUTPUT ON
+DECLARE  
+  n NUMBER := 0;  
+BEGIN  
+  WHILE n < 10
+  LOOP 
+    n := n +1;
+    IF n = 5 THEN
+      CONTINUE;
+    END IF;
+    dbms_output.put_line(num); 
+  END LOOP;  
+END;
