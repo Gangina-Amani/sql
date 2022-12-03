@@ -1,0 +1,4 @@
+The SELECT statement retrives the fields from various tables. JOIN query is used to obtain data from multiple tables.
+A JOIN clause joins rows from two or more tables based on a related column.
+
+select e.eno, e.ename, d.deptno from emp e, dept d where e.deptno= d.deptno;
